@@ -1,16 +1,22 @@
 #app {
     display: grid;
-    grid-template-columns: 51.25% 48.75%;
+    grid-template-columns: 25rem 51.25rem;
+    gap: 1.25rem;
 
     height: 100vh;
     overflow: hidden;
 
-    background-color: var(--shape-body);
+    background-color: var(--shape-background);
+
+    padding: 1.25rem;
 }
 
 aside {
+    max-width: 25rem;
 }
 
 main {
     overflow: auto;
+
+    background-color: var(--shape-body);
 }

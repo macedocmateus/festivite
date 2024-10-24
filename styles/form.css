@@ -1,0 +1,14 @@
+fieldset {
+    border: none;
+}
+
+legend {
+    display: inline-block;
+}
+
+legend img {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    vertical-align: middle;
+}

@@ -1,11 +1,11 @@
 :root {
-    --font-family-body: 'open-sans', sans-serif;
-    --font-family-header: 'baloo-2', sans-serif;
-    --font-family-logo: 'leckerli-one', sans-serif;
+    --font-family-body: 'open sans', sans-serif;
+    --font-family-header: 'baloo 2', sans-serif;
+    --font-family-logo: 'leckerli one', sans-serif;
 
-    --font-logo: 2.5rem / auto;
-    --font-heading-md: bold 1.75rem / auto;
-    --font-heading-sm: bold 1.125rem / auto;
+    --font-logo: 2.5rem / 1 var(--font-family-logo);
+    --font-heading-md: bold 1.75rem /;
+    --font-heading-sm: bold 1.125rem /;
     --font-body-md: 1rem / auto;
     --font-body-sm: 0.875rem / auto;
     --font-body-xs: 0.75rem / auto;
@@ -43,6 +43,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
 }
 
 img {

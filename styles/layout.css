@@ -11,8 +11,39 @@
     padding: 1.25rem;
 }
 
-aside {
+.aside-container {
     max-width: 25rem;
+
+    position: relative;
+
+    & img {
+        border-radius: 0.75rem;
+    }
+
+    & header {
+        position: absolute;
+
+        padding: 2rem;
+
+        & img {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        & h1 {
+            font: var(--font-logo);
+            color: var(--accent-color-pink);
+
+            display: block;
+
+            margin-block: 1rem;
+        }
+
+        & p {
+            font: lighter 1rem / 1 var(--font-family-body);
+            color: var(--text-heading);
+        }
+    }
 }
 
 main {

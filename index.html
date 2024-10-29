@@ -29,14 +29,41 @@
 
         <main>
             <div class="main-form">
-                <h1>Crie seu convite</h1>
+                <h2>Crie seu convite</h2>
 
                 <form action="#" method="post" enctype="multipart/form-data">
                     <fieldset class="about">
                         <legend>
                             <img src="./assets/calendar.svg" alt="Ícone de um calendário">
-                            Sobre o evento
+                            <h3>Sobre o evento</h3>
                         </legend>
+
+                        <div class="input-wrapper">
+                            <label for="title">Título</label>
+                            <input type="text" id="title" name="title" placeholder="Nome do evento">
+                        </div>
+
+                        <div class="flex">
+                            <div class=" input-wrapper flex-2">
+                                <label for="date-start">Inicio</label>
+                                <input type="date" id="date-start" name="date-start">
+                            </div>
+
+                            <div class=" input-wrapper flex-1">
+                                <label for="date-end">Fim</label>
+                                <input type="date" id="date-end" name="date-end">
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <div class=" input-wrapper flex-2">
+                                <label for="type">Tipo</label>
+
+                                <div class="checkbox-wrapper">
+
+                                </div>
+                            </div>
+                        </div>
                     </fieldset>
                 </form>
             </div>

@@ -44,25 +44,46 @@
                         </div>
 
                         <div class="flex">
-                            <div class=" input-wrapper flex-2">
+                            <div class=" input-wrapper">
                                 <label for="date-start">Inicio</label>
                                 <input type="date" id="date-start" name="date-start">
                             </div>
 
-                            <div class=" input-wrapper flex-1">
+                            <div class=" input-wrapper">
                                 <label for="date-end">Fim</label>
                                 <input type="date" id="date-end" name="date-end">
                             </div>
                         </div>
 
                         <div class="flex">
-                            <div class=" input-wrapper flex-2">
-                                <label for="type">Tipo</label>
+                            <div class=" input-wrapper">
+                                <div class="radio-wrapper">
+                                    <label>Tipo</label>
+                                    <div class="radio-inner">
+                                        <input type="radio" name="in-person" id="in-person">
+                                        <img src="./assets/building-2.svg" alt="Ícone de um edifício">
+                                        <label for="in-person">Presencial</label>
+                                    </div>
 
-                                <div class="checkbox-wrapper">
-
+                                    <div class="radio-inner">
+                                        <input type="radio" name="online" id="online">
+                                        <img src="./assets/video.svg" alt="Ícone de um vídeo">
+                                        <label for="online">Online</label>
+                                    </div>
                                 </div>
                             </div>
+
+                            <div class=" input-wrapper">
+                                <label for="address">Local</label>
+                                <input type="url" name="address" id="address">
+                            </div>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="description">Descrição</label>
+                            <textarea name="description" id="description" rows="5" cols="5"
+                                placeholder="Escreva sobre os detalhes do evento">
+                            </textarea>
                         </div>
                     </fieldset>
                 </form>

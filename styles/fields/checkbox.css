@@ -18,7 +18,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #2ec4ff;
     transition: background-color 0.4s ease;
     border-radius: 34px;
 }
@@ -30,13 +30,13 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: red;
     transition: transform 0.4s ease;
     border-radius: 50%;
 }
 
 #toggle:checked + label .switch .slider {
-    background-color: #2196f3;
+    background-color: green;
 }
 
 #toggle:checked + label .switch .slider:before {
@@ -48,7 +48,7 @@
     font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    color: #666;
+    color: blue;
     transition: color 0.4s ease;
 }
 
@@ -60,16 +60,9 @@
 /* Estado ON */
 #toggle:checked + label .status-text::after {
     content: 'Claro';
-    color: #2196f3;
+    color: yellow;
 }
 
 #toggle {
     display: none;
-}
-
-label {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
 }

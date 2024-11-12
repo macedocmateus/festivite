@@ -4,11 +4,11 @@
     --font-family-logo: 'leckerli one', sans-serif;
 
     --font-logo: 2.5rem / 1 var(--font-family-logo);
-    --font-heading-md: bold 1.75rem /;
-    --font-heading-sm: bold 1.125rem /;
-    --font-body-md: 1rem / auto;
-    --font-body-sm: 0.875rem / auto;
-    --font-body-xs: 0.75rem / auto;
+    --font-heading-md: bold 1.75rem / 1 var(--font-family-header);
+    --font-heading-sm: bold 1.125rem / 1 var(--font-family-header);
+    --font-body-md: 1rem / 1 var(--font-family-body);
+    --font-body-sm: 0.875rem / 1 var(--font-family-body);
+    --font-body-xs: 0.75rem / 1 var(--font-family-body);
 
     --brand-light: #59b2ff;
     --brand-mid: #3487cf;

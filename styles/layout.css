@@ -9,6 +9,7 @@
     background-color: var(--shape-background);
 
     padding: 1.25rem;
+    justify-content: center;
 }
 
 .aside-container {
@@ -50,6 +51,24 @@ main {
     overflow: auto;
 
     background-color: var(--shape-body);
+
+    padding: 5rem 8.125rem;
+
+    border-radius: 0.75rem;
+}
+
+h2,
+h3 {
+    color: var(--text-heading);
+}
+
+h2 {
+    font: var(--font-heading-md);
+    margin-bottom: 2.5rem;
+}
+
+h3 {
+    font: var(--font-heading-sm);
 }
 
 .main-form {
@@ -59,12 +78,9 @@ main {
 
 .flex {
     display: flex;
+    gap: 1rem;
 }
 
 .flex-1 {
     flex: 1;
-}
-
-.flex-2 {
-    flex: 2;
 }

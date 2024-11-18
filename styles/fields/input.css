@@ -27,3 +27,11 @@ label {
     color: var(--text-body);
     font: var(--font-body-sm);
 }
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='tel']:focus,
+input[type='date']:focus,
+input[type='url']:focus {
+    outline: 1px solid var(--brand-light);
+}

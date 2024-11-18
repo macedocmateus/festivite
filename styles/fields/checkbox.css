@@ -43,7 +43,6 @@
     transform: translateX(26px);
 }
 
-/* Estilo para o texto de estado */
 .toggle-text {
     font-family: Arial, sans-serif;
     font-size: 18px;
@@ -52,12 +51,10 @@
     transition: color 0.4s ease;
 }
 
-/* Estado OFF */
 #toggle + label .status-text::after {
     content: 'Escuro';
 }
 
-/* Estado ON */
 #toggle:checked + label .status-text::after {
     content: 'Claro';
     color: yellow;

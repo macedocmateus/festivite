@@ -76,6 +76,11 @@
     cursor: pointer;
 }
 
+.color-inner:hover,
+.color-inner:focus-within {
+    border: 0.375rem solid var(--shape-hover);
+}
+
 .color-inner:has(input:checked) {
     outline: 0.125rem solid var(--brand-light);
 }
@@ -122,4 +127,18 @@
 
 .circle-cyan {
     background-color: var(--accent-color-cyan);
+}
+
+.theme-images {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.8rem;
+    margin-block: 1rem 1.75rem;
+
+    & .theme-inner {
+        & img {
+            object-fit: cover;
+        }
+    }
 }

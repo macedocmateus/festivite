@@ -1,0 +1,53 @@
+.dropzone {
+    width: 7.4375rem;
+    height: 2.5rem;
+    background-color: var(--shape-button);
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    margin-top: 0.5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dropzone label {
+    cursor: pointer;
+}
+
+.dropzone img {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    translate: -50% -50%;
+}
+
+.dropzone input[type='file'] {
+    color: var(--input-placeholder);
+
+    cursor: pointer;
+}
+
+.dropzone input[type='file']::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.dropzone input[type='file']::-ms-browse {
+    content: 'Selecionar';
+
+    cursor: pointer;
+}
+
+.dropzone input[type='file']::before {
+    content: 'Selecionar';
+    display: inline-block;
+    font: var(--font-body-sm);
+    color: var(--text-heading);
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    translate: -50% -50%;
+
+    cursor: pointer;
+}

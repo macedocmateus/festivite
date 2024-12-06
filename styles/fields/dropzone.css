@@ -25,6 +25,7 @@
 
 .dropzone input[type='file'] {
     color: var(--input-placeholder);
+    font: var(--font-body-md);
 
     cursor: pointer;
 }

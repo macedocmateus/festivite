@@ -295,22 +295,30 @@
 
                         <div class="contact-wrapper">
                             <label for="name">Nome</label>
-                            <input type="text" name="name" id="name" placeholder="Nome completo">
+                            <input type="text" name="name" id="name" placeholder="Nome completo" required>
+                            <div class="error">
+                                <img src="./assets/circle-alert.svg" alt="Ícone de alerta de erro">
+                                <span>Campo obrigatório</span>
+                            </div>
                         </div>
 
                         <div class="flex">
                             <div class="contact-wrapper">
                                 <label for="email">Email</label>
-                                <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
+                                <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required>
                                 <div class="error">
-                                    <img src="./assets/circle-alert.svg" alt="Erro">
-                                    <small>Campo obrigatório</small>
+                                    <img src="./assets/circle-alert.svg" alt="Ícone de alerta de erro">
+                                    <span>Campo obrigatório</span>
                                 </div>
                             </div>
 
                             <div class="contact-wrapper">
                                 <label for="phone">Telefone</label>
-                                <input type="tel" name="phone" id="phone" placeholder="(99) 99999-9999">
+                                <input type="tel" name="phone" id="phone" placeholder="(99) 99999-9999" required>
+                                <div class="error">
+                                    <img src="./assets/circle-alert.svg" alt="Ícone de alerta de erro">
+                                    <span>Campo obrigatório</span>
+                                </div>
                             </div>
                         </div>
 

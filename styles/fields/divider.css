@@ -1,0 +1,6 @@
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--input-stroke);
+    margin-block: 3rem 2.5rem;
+}

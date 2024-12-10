@@ -31,7 +31,7 @@
 }
 
 .dropzone input[type='file']::-webkit-file-upload-button {
-    visibility: hidden;
+    opacity: 0;
 }
 
 .dropzone input[type='file']::-ms-browse {

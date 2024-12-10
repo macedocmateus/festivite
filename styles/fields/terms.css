@@ -1,0 +1,56 @@
+.terms-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.terms-inner label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.terms-inner input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Cria o checkbox personalizado */
+.custom-checkbox {
+    position: absolute;
+    top: -0.125rem;
+    left: 0.3125rem;
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: var(--input-base);
+    border-radius: 0.25rem;
+}
+
+/* Cria a marcação dentro do checkbox */
+.custom-checkbox::after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.terms-inner input[type='checkbox']:checked + .custom-checkbox::after {
+    display: block;
+    border: 1px solid var(--brand-light);
+    border-radius: 0.25rem;
+}
+
+.terms-inner input[type='checkbox']:checked + .custom-checkbox::after {
+    background-image: url('../../assets/check.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1.25rem;
+    height: 1.25rem;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}

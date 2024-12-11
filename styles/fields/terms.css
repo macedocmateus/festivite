@@ -10,6 +10,14 @@
     padding-left: 35px;
     margin-bottom: 12px;
     cursor: pointer;
+
+    color: var(--text-body);
+    font: var(--font-body-sm);
+
+    & a {
+        color: var(--brand-light);
+        font: 600 0.875rem / 1 var(--font-family-body);
+    }
 }
 
 .terms-inner input[type='checkbox'] {
@@ -20,7 +28,6 @@
     width: 0;
 }
 
-/* Cria o checkbox personalizado */
 .custom-checkbox {
     position: absolute;
     top: -0.125rem;
@@ -31,7 +38,6 @@
     border-radius: 0.25rem;
 }
 
-/* Cria a marcação dentro do checkbox */
 .custom-checkbox::after {
     content: '';
     position: absolute;

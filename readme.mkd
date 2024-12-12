@@ -1,0 +1,41 @@
+<h1 align="center"> 🎊 Festivite 🎊 </h1>
+
+<p align="center">
+Projeto pessoal utilizando conceitos HTML e CSS.
+</p>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="Interface de um formulário convite digital para festas e eventos" src="./capa-readme.png" width="100%">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+-   HTML e CSS
+-   Git e GitHub
+-   Figma
+
+## 💻 Projeto
+
+Festivite é uma pagina de formulário de convite digital onde usuário é capaz de criar esses convites para festas ou eventos, podendo escolher a temática, o modelo (presencial ou online) entre outras funções. <a href="https://festivite.vercel.app/" target="_blank" rel="noopener noreferrer">aqui</a> para testar a página.
+
+## 🎨 Layout
+
+Clique <a href="https://www.figma.com/design/uQCdOPbbs9c4c1VCtjuhdI/Formul%C3%A1rio-de-convite-(Community)?m=auto&is-community-duplicate=1&fuid=1050974991944149827">aqui</a> para conhecer a prototipagem do projeto.
+<br>
+<br>
+<br>
+<br>
+
+<p align="center">
+Desenvolvido com ♥ by Mateus de Castro Macedo 👨‍💻
+</p>
